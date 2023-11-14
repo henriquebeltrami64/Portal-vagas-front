@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" >
+    
+    <title>JobMatch Home</title>
+    <!--Bootstrap CSS-->
+    <link 
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" 
+    crossorigin="anonymous">
+    <!--Icons Boostrap-->
+    <link rel="stylesheet" 
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <!--Css do Projeto-->
+    <link rel="stylesheet" href="/portal-vagas-front/CSS-home/style.css">
+    <!--Bootstrap JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" 
+    crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <header>
+        <div class="banner">
+        <div class="container" id="nav-container">
+            <nav class="navbar navbar-expand-lg fixed-top">
+                <a href="#" class="navbar-brand">
+                    <img id="logo" src="/portal-vagas-front/img-home/logo.png" alt="JobMatch">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links" 
+                aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link" id="home-menu">Inicio</a>
+                        <a class="nav-item nav-link" id="home-menu">Portal do Estudante</a>
+                        <a class="nav-item nav-link" id="home-menu">Portal da Empresa</a>
+                        <a class="nav-item nav-link" id="home-menu">Portal da Instituição</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container-fluid">
+            <div id="mainSlider" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#mainSlider" data-slide-to="0" class="active"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="/portal-vagas-front/img-home/bussines.jpg" class="image" alt="bussines" >
+                        <div class="carousel-caption d-none d-md-block">
+                            <h2>
+                                O Match com o funcionario que você procura está aqui!
+                            </h2>
+                            <div>
+                                <button type="button" class="btn btn-primary custom-btn">Ja tem um login?<br>Clique aqui para entra</br></button>
+                                <button type="button" class="btn btn-primary custom-btn">Não tem um login?<br>Cadastre-se aqui</br></button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+</body>
+</html>

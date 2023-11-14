@@ -1,0 +1,101 @@
+.row{
+    margin: 0;
+}
+
+.container {
+    padding: 34.8px 0;
+}
+
+p, li{
+    color: #444;
+    font-size: 14px;
+}
+
+header, .navbar {
+    background-color: white;
+}
+
+#logo {
+    width: 150px;
+}
+
+.navbar-brand {
+    padding: 0;
+    color: white;
+}
+
+.navbar-brand:hover{
+    color: blue;
+}
+
+#navbr-links a {
+    color: white;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 1rem .8rem;
+}
+
+.main-title {
+    color: #444;
+    margin: 0 0 0;
+    font-size: 40px;
+    text-align: center;
+}
+.image    {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("bussines.jpg");
+    filter: grayscale(20%) brightness(40%);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.container-fluid { 
+    padding: 0;
+}
+
+#mainSlider .carousel-inner, #mainSlider .carousel-item {
+    height: 90vh;
+}
+
+#mainsSlider .carousel-caption {
+    top: 20%;
+
+}
+
+#mainSlider .carousel-caption h2 {
+    font-size: 50px;
+    margin-bottom: 100px;
+    color: #FFE9AD;
+    text-align: inherit;
+
+}
+
+#mainSlider .carousel-caption p {
+    font-size: 30px;
+    color: #FFE9AD; 
+
+}
+
+/* Adicione estilos personalizados para o seu botão */
+.custom-btn {
+    transition: .4s all;
+    padding: 5px;
+    width: 200px;
+  }
+  
+  /* Estilo de hover personalizado para o botão */
+  .custom-btn:hover {
+    transform: translateY(-5px);
+    padding: auto;
+
+
+
+  }
+  
+  
+
+
+ 
